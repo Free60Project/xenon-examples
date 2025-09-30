@@ -29,9 +29,9 @@ int main()
     usb_do_poll();
 
     // After initialisation, you can clear the screen to remove the debug text
-    // from the GPU and USB initialisation. 
+    // from the GPU and USB initialisation.
     console_clrscr();
-    
+
     // Print out some text to the console.
     printf("Hello world!\n");
     printf("Press the Guide button or Y to exit.\n");
@@ -59,7 +59,7 @@ int main()
             }
         }
     }
-    
+
     // Returning from main() acts like an exit(0)
     return 0;
 }
