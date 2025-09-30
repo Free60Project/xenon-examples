@@ -4,7 +4,7 @@
 .SUFFIXES:
 #---------------------------------------------------------------------------------
 ifeq ($(strip $(DEVKITXENON)),)
-$(error "Please set DEVKITXENON in your environment. export DEVKITXENON=<path to>devkitPPC")
+$(error "Please set DEVKITXENON in your environment. export DEVKITXENON=<path to>devkitXenon")
 endif
 
 include $(DEVKITXENON)/rules
